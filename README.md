@@ -3,7 +3,8 @@ to check for relations between customers and other table
 
 How to test :
 1) Run it as is in some editor where spark  is running.
-or 
+or
+
 2)Run the first_shell.sh script after giving queue name.
 
 
