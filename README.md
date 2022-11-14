@@ -10,8 +10,9 @@ or
 2) Run the first_shell.sh script after giving queue name.
 
 
-glue   -- This all transformations can be taken care using glue in AWS.
-questions--
+Glue    -- This all transformations can be taken care using glue in AWS. Lambda/Step function can be used to trigger Glue script.
+
+Questions--
 1) I have calculated loyalty flag based on below criteria:
 	a) for all the customer id, calculated the total amount
 	b) if total amount calculated in step a) is more than 1000 for all the months  ,then  customer is loyalty
