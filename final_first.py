@@ -12,7 +12,7 @@ print("modules imported")
 
 #creating spark session
 #Other values can be given as required for configuration , for eg no of cores , shuffle partitions etc
-spark1 = SparkSession\
+spark = SparkSession\
 .builder\
 .appName("analysis for customers and transactions")\
 .config("spark.driver.memory","20g")\
@@ -24,7 +24,7 @@ spark1 = SparkSession\
 .getOrCreate()
 
 print("spark session created")
-spark1.sparkContext.setLogLevel("OFF")
+spark.sparkContext.setLogLevel("OFF")
 spark.conf.set("spark.sql.legacy.timeParserPolicy","legacy")
 file_location = "/FileStore/tables/customer.csv"
 file_type = "csv"
