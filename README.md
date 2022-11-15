@@ -30,3 +30,4 @@ change in taxes
 linkage attack 
 1) It can be avoided by using encryption while doing transformations and decryption while saving it in tables.
 2) glue PII transforms -- they can be applied to mask some of the PII columns like state , age .
+3) Different types of server side encryption available in AWS can be used for the same.
