@@ -2,7 +2,7 @@
 to check for relations between customers and other table
 
 How to test :
-
+Change value of file_location for both customers.csv and transactions.csv.
 1) Run it as is in some editor where spark  is running.
 
 or
