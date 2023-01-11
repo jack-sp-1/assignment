@@ -18,6 +18,7 @@ S3 --> event bridge --> Lambda --> Glue --> cloudwatch and Sns
 S3 --> S3 events notifications --> Lambda --> Glue --> cloudwatch and Sns ( to save costs)
 
 Questions--
+
 1) I have calculated loyalty flag based on below criteria:
 	a) for all the customer id, calculated the total amount
 	b) if total amount calculated in step a) is more than 1000 for all the months  ,then  customer is loyalty
