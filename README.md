@@ -14,6 +14,7 @@ or
 Glue    -- This all transformations can be taken care using glue in AWS. Lambda/Step function can be used to trigger Glue script.
  
 S3 --> event bridge --> Lambda --> Glue --> cloudwatch and Sns
+S3 --> S3 events notifications --> Lambda --> Glue --> cloudwatch and Sns ( to save costs)
 
 Questions--
 1) I have calculated loyalty flag based on below criteria:
