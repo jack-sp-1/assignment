@@ -11,11 +11,17 @@ or
 2) Run the first_shell.sh script after giving queue name.
 
 
+
 Glue    -- This all transformations can be taken care using glue in AWS. Lambda/Step function can be used to trigger Glue script.
  
 S3 --> event bridge --> Lambda --> Glue --> cloudwatch and Sns
 
 S3 --> S3 events notifications --> Lambda --> Glue --> cloudwatch and Sns ( to save costs)
+
+Or
+
+EMR cluster can be started and steps can be added to it. EMR serverless can be setup also 
+Airflow can be used to launch emr clusters.
 
 Questions--
 
