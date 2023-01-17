@@ -1,0 +1,13 @@
+Questions--
+
+1) I have calculated loyalty flag based on below criteria:
+	a) for all the customer id, calculated the total amount
+	b) if total amount calculated in step a) is more than 1000 for all the months  ,then  customer is loyalty
+	c) else customer is not loyal.
+jan feb march 
+1000 1000 1000      ## question  1  === loyalty flag   should be based on all months
+
+2) for change in prices for Wednesday
+change in taxes 
+ tax can change to 5 percent if required and unit price can be adjusted based on number of items saying special price
+ 
