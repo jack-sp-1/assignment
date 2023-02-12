@@ -1,5 +1,6 @@
 Change value of file_location for both customers.csv and transactions.csv.
 
+
 Run it as is in some editor where spark is running.
 
 or
